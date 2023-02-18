@@ -8,6 +8,9 @@ import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import java.io.IOException;
 
 public class HelloApplication extends Application {
@@ -26,7 +29,7 @@ public class HelloApplication extends Application {
             stage.show();
         }
         catch(Exception e){
-            System.out.println("ERRORACCIO: " + e.getMessage());
+            Logger.getAnonymousLogger().log(Level.INFO, e.getMessage());
         }
     }
 

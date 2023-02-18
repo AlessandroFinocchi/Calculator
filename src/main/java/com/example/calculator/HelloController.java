@@ -13,13 +13,13 @@ import com.fathzer.soft.javaluator.DoubleEvaluator;
 
 public class HelloController {
     @FXML
-    private ImageView CloseBtn; // Value injected by FXMLLoader
+    private ImageView closeBtn; // Value injected by FXMLLoader
 
     @FXML
-    private ImageView MinimizeBtn; // Value injected by FXMLLoader
+    private ImageView minimizeBtn; // Value injected by FXMLLoader
 
     @FXML
-    private Label ResultLbl; // Value injected by FXMLLoader
+    private Label resultLbl; // Value injected by FXMLLoader
 
     @FXML // fx:id="titlePane"
     private Pane titlePane; // Value injected by FXMLLoader
@@ -32,8 +32,8 @@ public class HelloController {
 
     public void init(Stage stage) {
 
-        assert CloseBtn != null : "fx:id=\"CloseBtn\" was not injected: check your FXML file 'hello-view.fxml'.";
-        assert MinimizeBtn != null : "fx:id=\"MinimizeBtn\" was not injected: check your FXML file 'hello-view.fxml'.";
+        assert closeBtn != null : "fx:id=\"CloseBtn\" was not injected: check your FXML file 'hello-view.fxml'.";
+        assert minimizeBtn != null : "fx:id=\"MinimizeBtn\" was not injected: check your FXML file 'hello-view.fxml'.";
         assert titlePane != null : "fx:id=\"titlePane\" was not injected: check your FXML file 'hello-view.fxml'.";
 
         titlePane.setOnMouseDragged(mouseEvent -> {
@@ -46,37 +46,35 @@ public class HelloController {
             y = mouseEvent.getSceneY();
         });
 
-        CloseBtn.setOnMouseClicked(mouseEvent -> stage.close());
+        closeBtn.setOnMouseClicked(mouseEvent -> stage.close());
 
-        MinimizeBtn.setOnMouseClicked(mouseEvent -> stage.setIconified(true));
+        minimizeBtn.setOnMouseClicked(mouseEvent -> stage.setIconified(true));
 
-        ResultLbl.setText(defaultValue);
-
-        System.out.println("ciao");
+        resultLbl.setText(defaultValue);
 
         evaluator = new DoubleEvaluator();
     }
 
     @FXML
-    void OnCancClicked(MouseEvent event) {
-        ResultLbl.setText(defaultValue);
+    void onCancelClicked(MouseEvent event) {
+        resultLbl.setText(defaultValue);
     }
 
     @FXML
-    void OnEqualClicked(MouseEvent event) throws ScriptException {
-            Double result = evaluator.evaluate(ResultLbl.getText());
-            ResultLbl.setText(result.toString());
+    void onEqualClicked(MouseEvent event) {
+            Double result = evaluator.evaluate(resultLbl.getText());
+            resultLbl.setText(result.toString());
     }
 
     @FXML
-    void OnNumberClicked(MouseEvent event) {
+    void onNumberClicked(MouseEvent event) {
         int value = Integer.parseInt(((Label)event.getSource()).getText());
-        ResultLbl.setText(ResultLbl.getText() + value);
+        resultLbl.setText(resultLbl.getText() + value);
     }
 
     @FXML
-    void OnSymbolClicked(MouseEvent event) {
+    void onSymbolClicked(MouseEvent event) {
         String symbol = ((Label)event.getSource()).getText();
-        ResultLbl.setText(ResultLbl.getText() + symbol);
+        resultLbl.setText(resultLbl.getText() + symbol);
     }
 }

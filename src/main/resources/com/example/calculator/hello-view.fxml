@@ -14,7 +14,7 @@
          <children>
             <Pane layoutX="13.0" layoutY="14.0" prefHeight="100.0" prefWidth="354.0" style="-fx-background-color: #00000025; -fx-background-radius: 15;">
                <children>
-                  <Label fx:id="ResultLbl" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="17.0" layoutY="15.0" prefHeight="70.0" prefWidth="320.0" text="0.0" textAlignment="RIGHT" textFill="WHITE">
+                  <Label fx:id="resultLbl" alignment="CENTER_RIGHT" contentDisplay="RIGHT" layoutX="17.0" layoutY="15.0" prefHeight="70.0" prefWidth="320.0" text="0.0" textAlignment="RIGHT" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -25,7 +25,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="SevenLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="7" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="SevenLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="7" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -37,7 +37,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="EightLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="8" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="EightLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="8" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -49,7 +49,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="NineLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="11.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="9" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="NineLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="11.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="9" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -61,7 +61,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl13" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="11.0" onMouseClicked="#OnSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="+" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl13" alignment="CENTER" contentDisplay="CENTER" layoutX="12.0" layoutY="11.0" onMouseClicked="#onSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="+" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -73,7 +73,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="FourLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="4" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="FourLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="4" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -85,7 +85,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="FiveLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="5" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="FiveLbl" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="5" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -97,7 +97,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLblSix121" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="6" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLblSix121" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="6" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -109,7 +109,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl111" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="-" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl111" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="-" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -121,7 +121,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl141" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="1" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl141" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="1" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -133,7 +133,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl142" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="2" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl142" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="2" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -145,7 +145,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl143" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="3" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl143" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="3" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -157,7 +157,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl144" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="⋅" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl144" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="⋅" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -169,7 +169,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl145" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnCancClicked" prefHeight="60.0" prefWidth="60.0" text="C" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl145" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onCancelClicked" prefHeight="60.0" prefWidth="60.0" text="C" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -181,7 +181,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl146" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnNumberClicked" prefHeight="60.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl146" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onNumberClicked" prefHeight="60.0" prefWidth="60.0" text="0" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -193,7 +193,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl147" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnEqualClicked" prefHeight="60.0" prefWidth="60.0" text="=" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl147" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onEqualClicked" prefHeight="60.0" prefWidth="60.0" text="=" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -205,7 +205,7 @@
                   <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                </padding>
                <children>
-                  <Label fx:id="ResultLbl148" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#OnSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="÷" textAlignment="CENTER" textFill="WHITE">
+                  <Label fx:id="ResultLbl148" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="10.0" onMouseClicked="#onSymbolClicked" prefHeight="60.0" prefWidth="60.0" text="÷" textAlignment="CENTER" textFill="WHITE">
                      <font>
                         <Font name="Arial" size="40.0" />
                      </font>
@@ -215,12 +215,12 @@
          </children></Pane>
       <Pane id="titlePane" fx:id="titlePane" prefHeight="40.0" prefWidth="380.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fx:id="MinimizeBtn" fitHeight="20.0" fitWidth="20.0" layoutX="318.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="minimizeBtn" fitHeight="20.0" fitWidth="20.0" layoutX="318.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../hide.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="CloseBtn" fitHeight="20.0" fitWidth="20.0" layoutX="346.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="closeBtn" fitHeight="20.0" fitWidth="20.0" layoutX="346.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../close.png" />
                </image>

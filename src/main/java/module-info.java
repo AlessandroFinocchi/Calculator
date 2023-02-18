@@ -3,6 +3,7 @@ module com.example.calculator {
     requires javafx.fxml;
     requires java.scripting;
     requires javaluator;
+    requires java.logging;
 
 
     opens com.example.calculator to javafx.fxml;
